@@ -23,7 +23,27 @@ export default {
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
+				'background-secondary': 'hsl(var(--background-secondary))',
+				'background-tertiary': 'hsl(var(--background-tertiary))',
 				foreground: 'hsl(var(--foreground))',
+				
+				// Glass morphism colors
+				glass: {
+					primary: 'hsl(var(--glass-primary))',
+					secondary: 'hsl(var(--glass-secondary))',
+					tertiary: 'hsl(var(--glass-tertiary))',
+					quaternary: 'hsl(var(--glass-quaternary))',
+					border: 'hsl(var(--glass-border))',
+					'border-strong': 'hsl(var(--glass-border-strong))',
+				},
+				
+				// Text opacity colors
+				'text-primary': 'hsl(var(--text-primary))',
+				'text-secondary': 'hsl(var(--text-secondary))',
+				'text-tertiary': 'hsl(var(--text-tertiary))',
+				'text-quaternary': 'hsl(var(--text-quaternary))',
+				'text-muted': 'hsl(var(--text-muted))',
+				
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
@@ -62,6 +82,9 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			fontFamily: {
+				sans: ['"Space Grotesk"', '"Outfit"', 'ui-sans-serif', 'system-ui'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
