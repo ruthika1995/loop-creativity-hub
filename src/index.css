@@ -187,3 +187,18 @@ All colors MUST be HSL.
   .border-glass { border-color: hsl(var(--glass-border)); }
   .border-glass-strong { border-color: hsl(var(--glass-border-strong)); }
 }
+
+/* Auth UI Customizations */
+@layer components {
+  .auth-container {
+    @apply space-y-4;
+  }
+  
+  .auth-button {
+    @apply transition-all duration-200 hover:scale-[1.02];
+  }
+  
+  .auth-input {
+    @apply transition-all duration-200;
+  }
+}

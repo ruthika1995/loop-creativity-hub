@@ -1,5 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import { Plus } from 'lucide-react';
+import { AuthButton } from '@/components/auth/AuthButton';
 
 export const Header = () => {
   const location = useLocation();
@@ -68,6 +69,7 @@ export const Header = () => {
               <Plus size={16} />
               <span>Upload</span>
             </Link>
+            <AuthButton />
           </div>
         </div>
       </div>
