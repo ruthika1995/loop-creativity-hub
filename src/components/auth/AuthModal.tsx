@@ -89,7 +89,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
               },
             }}
             providers={['google']}
-            redirectTo={`${window.location.origin}/feed`}
+            redirectTo={`${window.location.origin}/`}
             onlyThirdPartyProviders
           />
         </div>
